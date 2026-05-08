@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghav Chabba | AI/ML Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c3ac27bee6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Pictures/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Focus Areas</a></li>
+                    <li><a href="#tech-stack">Tech Stack</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-regular fa-sun"></i>
+                </button>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring AI/ML Engineer</p>
+                <h1>Hi, I am <span>Raghav</span> Chabba<br>Building data-driven intelligent systems</h1>
+            </div>
+        </div>
+    </div>
+
+
+<!------------------------About------------------------> 
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Pictures/My Pics/profile pic.jpg" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Computer Science student focused on AI/ML, Python development, and practical software engineering. I enjoy solving real-world problems using data, clean code, and iterative experimentation. My current work includes machine learning projects in prediction, model evaluation, and feature engineering, along with full-stack portfolio development to present technical impact.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AI/ML</span><br>Supervised learning, model evaluation, feature engineering</li>
+                            <li><span>Programming</span><br>Python, Java, SQL, NumPy, Pandas, scikit-learn</li>
+                            <li><span>Development</span><br>HTML, CSS, JavaScript, responsive portfolio websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Present</span><br>Developing AI/ML projects in prediction modeling and analytics</li>
+                            <li><span>2024 - Present</span><br>Building and iterating personal portfolio projects with modern web stack</li>
+                            <li><span>Technical Strength</span><br>Strong problem-solving, structured debugging, and data-driven thinking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BSc Computer Science</span><br>Richmond, The American University London (GPA: 3.4/4.0)</li>
+                            <li><span>Relevant Coursework</span><br>Data Structures, Algorithms, AI/ML, Web Development</li>
+                            <li><span>Certification</span><br>Pre-eminent Programmer of the Year 2025 (RAUL)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <!------------------------Services------------------------>   
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Core Focus</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Machine Learning Projects</h2>
+                <p>Designing and training ML models for practical use cases with clear business outcomes, including risk and behavior prediction problems.</p>
+                <a href="#portfolio">View Work</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Processing & Analysis</h2>
+                <p>Cleaning, transforming, and analyzing datasets with Python libraries such as NumPy and Pandas to build reliable model-ready pipelines.</p>
+                <a href="#portfolio">View Work</a>
+            </div> 
+
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Technical Portfolio Development</h2>
+                <p>Developing responsive and interactive web interfaces to communicate projects, skills, and measurable technical achievements.</p>
+                <a href="#contact">Collaborate</a>
+            </div>
+
+        </div>
+    </div>
+ </div>
+
+ <!-----------------------Tech Stack--------------------------->
+
+ <div id="tech-stack">
+    <div class="container">
+        <h1 class="sub-title">AI/ML Tech Stack</h1>
+        <div class="stack-grid">
+            <span class="stack-pill"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="stack-pill"><i class="fa-solid fa-brain"></i> scikit-learn</span>
+            <span class="stack-pill"><i class="fa-solid fa-table"></i> Pandas</span>
+            <span class="stack-pill"><i class="fa-solid fa-square-root-variable"></i> NumPy</span>
+            <span class="stack-pill"><i class="fa-solid fa-database"></i> SQL / MySQL</span>
+            <span class="stack-pill"><i class="fa-brands fa-java"></i> Java</span>
+            <span class="stack-pill"><i class="fa-brands fa-git-alt"></i> Git / GitHub</span>
+            <span class="stack-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="stack-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span class="stack-pill"><i class="fa-brands fa-js"></i> JavaScript</span>
+        </div>
+    </div>
+ </div>
+
+ <!-----------------------Portfolio--------------------------->
+
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Featured Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./Pictures/My Pics/profilepic-edited.jpg" alt="">
+                <div class="layer">
+                    <h3>Loan Default Prediction Model</h3>
+                    <p>Built a Logistic Regression model to classify borrower default risk using feature scaling, data preprocessing, and performance metrics.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="./Pictures/My Pics/profilepic-edited.jpg" alt="">
+                <div class="layer">
+                    <h3>Hotel Management System</h3>
+                    <p>Python and MySQL based guest management system with strong focus on OOP fundamentals, data records, and backend logic.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="./Pictures/My Pics/profilepic-edited.jpg" alt="">
+                <div class="layer">
+                    <h3>Library Management System</h3>
+                    <p>Developed a Python Tkinter interface for issuing, returning, and tracking books with structured class-based development.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More Projects</a>
+    </div>
+ </div>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> raghavchabba9605@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +44 (0)7586340420</p>
+                <div class="social-icons">
+                    <!-- Replace the href below with your real LinkedIn profile URL -->
+                    <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- Replace the href below with your real GitHub profile URL -->
+                    <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:raghavchabba9605@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="./Pictures/Raghav Chabba CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="your.email@example.com" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Raghav Chabba. Built for AI/ML career opportunities.</p>
+    </div>
+ </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu()
+            {
+                sidemenu.style.right="0";
+            }
+        function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+            }
+
+        const themeToggle = document.getElementById("theme-toggle");
+        const savedTheme = localStorage.getItem("theme");
+
+        if (savedTheme === "light") {
+            document.body.classList.add("light-theme");
+            themeToggle.innerHTML = '<i class="fa-regular fa-moon"></i>';
+        }
+
+        themeToggle.addEventListener("click", function () {
+            document.body.classList.toggle("light-theme");
+            const isLight = document.body.classList.contains("light-theme");
+            localStorage.setItem("theme", isLight ? "light" : "dark");
+            themeToggle.innerHTML = isLight
+                ? '<i class="fa-regular fa-moon"></i>'
+                : '<i class="fa-regular fa-sun"></i>';
+        });
+    </script>
+</body>
+</html>
